@@ -1,7 +1,7 @@
 import numpy as np
 
 from nn_layer import NN_Layer
-from nn_fc_unit import FullyConnectedUnit
+from fc_unit import FullyConnectedUnit
 
 from config import LEARNING_RATE, SEED, ROOT_PATH
 

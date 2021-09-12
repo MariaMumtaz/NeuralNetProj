@@ -45,7 +45,7 @@ def cross_entropy_cost(yhat, y):
     
     return cost
 
-### Loss cross entopy cost
+### Loss cross entopy cost prime
 def cross_entropy_cost_prime(yhat, y):
     
     #dA = - (np.divide(y, yhat) - np.divide(1 - y, 1 - yhat))

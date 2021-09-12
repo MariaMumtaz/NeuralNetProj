@@ -1,15 +1,17 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+#setting up path for sys, which is in the same directory
 import sys
 sys.path.insert(0, f'.')
 
+#setting up path for config, residing in src
 import config
 sys.path.insert(0, f'{config.ROOT_PATH}src')
 
 import numpy as np
 from activation import identity, identity_prime, sigmoid ,sigmoid_prime, relu, relu_prime, tanh, tanh_prime, softmax ,softmax_prime
-from sklearn.metrics import roc_curve, auc, roc_auc_score
+from sklearn.metrics import roc_curve, auc, roc_auc_score #for convolution layer, not implemented yet
 
 np.random.seed(config.SEED)
 
@@ -20,7 +22,8 @@ activation_map = {
         'Tanh'    :(tanh    ,tanh_prime    ),
         'Softmax' :(softmax ,softmax_prime )
     }
-    
+
+#convolution, not implemented yet
 def calculate_metric(scores, truth):
     """
     Given arrays for prediction and ground truth for each class,

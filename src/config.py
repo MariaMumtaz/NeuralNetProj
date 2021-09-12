@@ -11,6 +11,7 @@ SRC_DIR='src/'
 DATA_DIR='data/'
 MODEL_DIR='model/'
 
+#setting up seed, number of classes, epochs, learning rate, filename
 SEED=1
 NUM_CLASSES=10
 NUM_EPOCHS = 2500
