@@ -1,0 +1,8 @@
+# ignore all logs
+*.log
+# ignore unnecessary jupyter notbook files
+.ipynb_checkpoints
+# ignore pychache
+__pycache__/*.*
+*.pyc
+*.cpython-83.pyc
