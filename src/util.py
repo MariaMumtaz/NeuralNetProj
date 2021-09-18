@@ -52,4 +52,25 @@ def maxpool_output_volume(W, F, S):
     """
     return int(math.ceil((W - F + 1) / S))
     
-    
+
+# Tools for handling model cache
+import pickle
+import py7zr
+import os
+import time
+
+
+def dump_model(model, name):
+    with open(f'model/{name}_fc5.pickle', 'wb') as handle:
+        pickle.dump(model, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    with py7zr.SevenZipFile(f'model/{name}_fc5.pickle.7z', "w") as zip:
+        zip.write(f'model/{name}_fc5.pickle')
+        os.remove(f'model/{name}_fc5.pickle')
+        
+def load_model(name):
+    if os.path.exists(f'model/{name}_fc5.pickle.7z'):
+        with py7zr.SevenZipFile(f'model/{name}_fc5.pickle.7z', "r") as zip:
+            zip.extractall()
+    with open(f'model/{name}_fc5.pickle', 'rb') as handle:
+        return pickle.load(handle)
