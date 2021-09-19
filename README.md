@@ -19,10 +19,10 @@ The model is then compared to scikit-learn's Multi-Layer Perceptron to evaluate 
 ## Structure
 
 
-src: All python source Files
-model: Saved models
-data: mnist and cvnc test/train sets
-images: Test image
+- src: All python source Files
+- model: Saved models
+- data: mnist and cvnc test/train sets
+- images: Test image
 
 ## Source directiry
 - activation: has activation all activation functions and their derivatives (e.g sigmoid, sigmoid_prime)
