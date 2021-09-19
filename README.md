@@ -18,24 +18,13 @@ The model is then compared to scikit-learn's Multi-Layer Perceptron to evaluate 
 
 ## Structure
 
-<table>
-  <tr>
-    <th>src</th>
-    <th>model</th>
-    <th>data</th>
-  </tr>
-  <tr>
-    <td>All python source files</td>
-    <td>Saved models</td>
-    <td>mnist and cvnc test/train sets</td>
-  </tr>
 
-|src|All python source Files|
-|model|saved models|
-|data|mnist and cvnc test/train sets|
-|images|test image|
+src: All python source Files
+model: Saved models
+data: mnist and cvnc test/train sets
+images: Test image
 
-####Source directiry
+## Source directiry
 - activation: has activation all activation functions and their derivatives (e.g sigmoid, sigmoid_prime)
 - loss: computes the losses
 - config: sets up seed, number of classes, number of epochs, learning rate
