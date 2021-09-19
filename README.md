@@ -44,7 +44,7 @@ The directory structure is as below
 - For the cvnc dataset, Minimal cost achieved is 0.00073 with an accuracy of 76%
   ![alt text](https://raw.githubusercontent.com/MariaMumtaz/NeuralNetProj/master/images/cvnc.png)
   
-- For the mnist dataset, Minimal cost achieved is 0.03932 with an accuracy of 89%
+- For the mnist dataset, Minimal cost achieved is 0.03944 with an accuracy of 89%
 - ![alt text](https://raw.githubusercontent.com/MariaMumtaz/NeuralNetProj/master/images/minst.png)
   
 - Scikit-Learn's MLP model gives an accuracy of 90%
