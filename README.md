@@ -18,6 +18,17 @@ The model is then compared to scikit-learn's Multi-Layer Perceptron to evaluate 
 
 ## Structure
 
+<table>
+  <tr>
+    <th>src</th>
+    <th>model</th>
+    <th>data</th>
+  </tr>
+  <tr>
+    <td>All python source files</td>
+    <td>Saved models</td>
+    <td>mnist and cvnc test/train sets</td>
+  </tr>
 
 |src|All python source Files|
 |model|saved models|
