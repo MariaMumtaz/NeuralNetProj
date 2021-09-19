@@ -19,11 +19,11 @@ The self made model is then compared to scikit-learn's Multi-Layer Perceptron to
 
 The directory structure is as below
 
-**src**: All python source Files
-**model**: Saved trained models
-**data**: mnist and cvnc test/train sets 
-**images**: Test images 
-**\<root\>**: Main python file and all scratch notebooks
+- **src**: All python source Files
+- **model**: Saved trained models
+- **data**: mnist and cvnc test/train sets 
+- **images**: Test images 
+- **\<root\>**: Main python file and all scratch notebooks
 
 ## Source directiry
 
