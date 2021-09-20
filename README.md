@@ -1,5 +1,5 @@
 # Neural Network from Scratch
-Building a Neural Network for UNIBE ACAS DS 2021
+Building a Neural Network for UNIBE CAS ADS 2021
 
 #### Contributers:
 - Maria Mumtaz, maria.mumtaz@students.unibe.ch
