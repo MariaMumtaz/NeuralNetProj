@@ -7,7 +7,7 @@ Building a Neural Network for UNIBE CAS ADS 2021
 
 ## Description
 
-In this repository, a fully connected 5 layers Neural Network is build. Then Neural Network is then used to recognize Images in mnist dataset(hand-written digits)
+In this repository, a fully connected 5 layers Neural Network is build. The Neural Network is then used to recognize Images in mnist dataset(hand-written digits)
 and cvnc dataset(Cat vs. No Cat)
 
 ## Technologies used
